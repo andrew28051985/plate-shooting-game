@@ -75,18 +75,20 @@ body {
     transform: translate(-50%, -50%) rotateX(45deg) scale(0);
   }
 }
-.reset-input {
-  position: absolute;
-  top: 1%;
-  left: 33%;
-}
-.reset-input:checked {
-  counter-increment: list -3;
-}
 .plate:checked {
   opacity: 0;
   counter-increment: list;
 }
 .score:after {
   content: counter(list);
+}
+.button {  
+  border: none;
+  border-radius: 40%;
+  background-color: green;
+  color: #fff;
+}
+.button:hover {
+  background-color: green;
+  color: black;
 }
