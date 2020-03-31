@@ -81,7 +81,7 @@ body {
   left: 33%;
 }
 .reset-input:checked {
-  counter-increment: list -2;
+  counter-increment: list -3;
 }
 .plate:checked {
   opacity: 0;
