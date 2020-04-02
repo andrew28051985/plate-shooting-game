@@ -1,8 +1,10 @@
 body {
   background: url('http://ipic.su/img/img7/fs/dendi(1).1571830092.png')
    no-repeat center top / 90%;   
+   font-size: small;
 }
 .wrapper {
+  font-size: 1.4em;
   padding-left: 5%;
   color: green;
 }
@@ -84,9 +86,9 @@ body {
 }
 .button {  
   border: none;
-  border-radius: 40%;
+  border-radius: 45%;
   background-color: green;
-  color: #fff;
+  color: #ffffff;
 }
 .button:hover {
   background-color: green;
